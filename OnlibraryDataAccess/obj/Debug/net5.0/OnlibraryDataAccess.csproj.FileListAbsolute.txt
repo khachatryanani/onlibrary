@@ -1,0 +1,12 @@
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryDataAccess\bin\Debug\net5.0\OnlibraryDataAccess.deps.json
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryDataAccess\bin\Debug\net5.0\OnlibraryDataAccess.dll
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryDataAccess\bin\Debug\net5.0\ref\OnlibraryDataAccess.dll
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryDataAccess\bin\Debug\net5.0\OnlibraryDataAccess.pdb
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryDataAccess\obj\Debug\net5.0\OnlibraryDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryDataAccess\obj\Debug\net5.0\OnlibraryDataAccess.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryDataAccess\obj\Debug\net5.0\OnlibraryDataAccess.AssemblyInfo.cs
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryDataAccess\obj\Debug\net5.0\OnlibraryDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryDataAccess\obj\Debug\net5.0\OnlibraryDataAccess.dll
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryDataAccess\obj\Debug\net5.0\ref\OnlibraryDataAccess.dll
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryDataAccess\obj\Debug\net5.0\OnlibraryDataAccess.pdb
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryDataAccess\obj\Debug\net5.0\OnlibraryDataAccess.csprojAssemblyReference.cache

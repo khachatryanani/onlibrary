@@ -1,0 +1,4 @@
+﻿CREATE PROCEDURE [dbo].[GetAuthors]
+AS
+	SELECT * FROM Authors
+RETURN 0

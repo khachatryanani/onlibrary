@@ -1,0 +1,25 @@
+﻿@model Author
+<div class="card card-outline-primary m-1 p-1">
+    <div class="bg-faded p-1 font-weight-bolder">
+        <h3>
+            @Model.AuthorFirstName @Model.AuthorLastName
+            <span class="badge badge-pill badge-primary" style="float:right">
+                <small>@Model.Rating</small>
+            </span>
+        </h3>
+    </div>
+    <hr />
+    <div class="card-text p-1">Nationality: @Model.Nationality | Country: @Model.Country</div>
+    <div class="card-text p-1 font-weight-bold">Bibliography</div>
+    @foreach (var book in Model.Books)
+    {
+      <div class="card-text font-italic">@book.Title (@book.Year)</div>
+      <div class="card-text">
+          <span>Translations: </span>
+          @foreach (var lang in book.Translations.Languages)
+          {
+              <span>@lang.Language </span>
+          }
+    </div>
+    }
+</div>

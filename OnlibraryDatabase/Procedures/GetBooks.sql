@@ -1,0 +1,4 @@
+﻿CREATE PROCEDURE [dbo].[GetBooks]
+AS
+	SELECT * FROM Books
+RETURN 0
