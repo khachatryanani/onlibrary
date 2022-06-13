@@ -29,10 +29,11 @@ namespace OnlibraryWebClient
         {
             services.AddControllersWithViews();
             services.AddRazorPages();
-            services.AddScoped<HttpClient, HttpClient>(cl => new HttpClient() {BaseAddress = new Uri(@"https://localhost:44372/api") });
-            services.AddScoped<GraphQLHttpClient, GraphQLHttpClient>(cl => new GraphQLHttpClient("https://localhost:5001/graphql", new NewtonsoftJsonSerializer()));
+            //services.AddScoped<HttpClient, HttpClient>(cl => new HttpClient() {BaseAddress = new Uri(@"https://localhost:44372/api") });
+            services.AddScoped<HttpClient, HttpClient>(cl => new HttpClient() { BaseAddress = new Uri(Configuration.GetSection("OnlibraryOrdersAPI").Value) });
 
-
+            //services.AddScoped<GraphQLHttpClient, GraphQLHttpClient>(cl => new GraphQLHttpClient("https://localhost:5001/graphql", new NewtonsoftJsonSerializer()));
+            services.AddScoped<GraphQLHttpClient, GraphQLHttpClient>(cl => new GraphQLHttpClient(Configuration.GetSection("OnlibraryWebGraphQL").Value, new NewtonsoftJsonSerializer()));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,7 +46,6 @@ namespace OnlibraryWebClient
             else
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
             app.UseHttpsRedirection();

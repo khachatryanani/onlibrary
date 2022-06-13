@@ -26,12 +26,13 @@ namespace OnlibraryAPI
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            connectionString = configuration.GetConnectionString("AzureSQLDatabase");
         }
 
         public IConfiguration Configuration { get; }
 
-        private string connectionString = @"Data Source = DESKTOP-TK7OBVA\SQLEXPRESS; Initial Catalog = OnlibraryDatabase; Integrated Security = True";
-
+        //private string connectionString = @"Data Source = DESKTOP-TK7OBVA\SQLEXPRESS; Initial Catalog = OnlibraryDatabase; Integrated Security = True";
+        private string connectionString;
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {

@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlibraryDataAccess", "OnlibraryDataAccess\OnlibraryDataAccess.csproj", "{42BEEE41-EE68-4499-8ADB-7CE070D99032}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlibraryDataAccess", "OnlibraryDataAccess\OnlibraryDataAccess.csproj", "{42BEEE41-EE68-4499-8ADB-7CE070D99032}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "OnlibraryDatabase", "OnlibraryDatabase\OnlibraryDatabase.sqlproj", "{00E45E87-D94D-4A1A-9DD6-C5BC52A1A14A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlibraryAPI", "OnlibraryAPI\OnlibraryAPI.csproj", "{025C22DB-829C-494F-8315-6BB17A38A5CD}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlibraryWebClient", "MyWebApp\OnlibraryWebClient.csproj", "{94511C46-506C-47BE-A137-37CD3C209494}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlibraryAPI", "OnlibraryAPI\OnlibraryAPI.csproj", "{025C22DB-829C-494F-8315-6BB17A38A5CD}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "OnlibraryOrdersDatabase", "OnlibraryOrdersDatabase\OnlibraryOrdersDatabase.sqlproj", "{05F89F29-84AD-4BC3-AD63-83DEB1F86E64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlibraryOrdersDataAccess", "OnlibraryOrdersDataAccess\OnlibraryOrdersDataAccess.csproj", "{93356BDE-9C15-4383-8A92-528AA258428E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlibraryOrdersDataAccess", "OnlibraryOrdersDataAccess\OnlibraryOrdersDataAccess.csproj", "{93356BDE-9C15-4383-8A92-528AA258428E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlibraryOrdersAPI", "OnlibraryOrdersAPI\OnlibraryOrdersAPI.csproj", "{D94651E2-55AB-413E-85CD-87EEE4152FA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlibraryOrdersAPI", "OnlibraryOrdersAPI\OnlibraryOrdersAPI.csproj", "{D94651E2-55AB-413E-85CD-87EEE4152FA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlibraryWebClient", "OnlibraryWebClient\OnlibraryWebClient.csproj", "{17AB51F4-E958-4CD4-8E3D-BF01E931A311}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +37,6 @@ Global
 		{025C22DB-829C-494F-8315-6BB17A38A5CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{025C22DB-829C-494F-8315-6BB17A38A5CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{025C22DB-829C-494F-8315-6BB17A38A5CD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{94511C46-506C-47BE-A137-37CD3C209494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94511C46-506C-47BE-A137-37CD3C209494}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94511C46-506C-47BE-A137-37CD3C209494}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94511C46-506C-47BE-A137-37CD3C209494}.Release|Any CPU.Build.0 = Release|Any CPU
 		{05F89F29-84AD-4BC3-AD63-83DEB1F86E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{05F89F29-84AD-4BC3-AD63-83DEB1F86E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05F89F29-84AD-4BC3-AD63-83DEB1F86E64}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
@@ -55,6 +51,10 @@ Global
 		{D94651E2-55AB-413E-85CD-87EEE4152FA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D94651E2-55AB-413E-85CD-87EEE4152FA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D94651E2-55AB-413E-85CD-87EEE4152FA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17AB51F4-E958-4CD4-8E3D-BF01E931A311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17AB51F4-E958-4CD4-8E3D-BF01E931A311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17AB51F4-E958-4CD4-8E3D-BF01E931A311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17AB51F4-E958-4CD4-8E3D-BF01E931A311}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
