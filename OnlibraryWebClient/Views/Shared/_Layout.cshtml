@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-light border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Onlibrary</a>
                 <partial name="_LoginPartial.cshtml" />
@@ -36,6 +36,12 @@
                asp-controller="Books"
                asp-route-category="">
                 Browse Books
+            </a>
+            <a class="btn btn-block btn-outline-secondary"
+               asp-action="MyOrders"
+               asp-controller="Purchases"
+               asp-route-category="">
+                Browse Orders
             </a>
 
         </div>

@@ -19,8 +19,7 @@ namespace OnlibraryAPI.GraphQL.Types
             dataAccess = dataAcc;
         }
 
-        public List<LanguageBase> GetTranslations(
-        BookBase book, IResolverContext ctx)
+        public List<LanguageBase> GetTranslations(BookBase book, IResolverContext ctx)
         {
             var languages = dataAccess.GetTranslationsByBookId(book.BookId);
 

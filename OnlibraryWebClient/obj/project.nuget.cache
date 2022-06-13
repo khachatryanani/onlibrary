@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IjrG+Y0sHh/dLpm1/Hbdyz2l86SlChmD3CvejRgSB9BA5y0XlqxdNerZsvGl/rTEUUghU34mDa4siTQtBfruSQ==",
+  "dgSpecHash": "apaDYNP4txkbYmwS5+Aid5mtwablQuJEwqVtV9fff4TvcKANCH5gD+6g6FgthCrLeW4krBtEG7p3lBo4fS6Q8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\onlibraryproject\\OnlibraryWebClient\\OnlibraryWebClient.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\Onlibrary\\MyWebApp\\OnlibraryWebClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\google.apis.core\\1.57.0\\google.apis.core.1.57.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\graphql.client\\4.0.2\\graphql.client.4.0.2.nupkg.sha512",

@@ -13,9 +13,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
-using MyWebApp.Areas.Identity.Data;
+using OnlibraryWebClient.Areas.Identity.Data;
 
-namespace MyWebApp.Areas.Identity.Pages.Account
+namespace OnlibraryWebClient.Areas.Identity.Pages.Account
 {
     [AllowAnonymous]
     public class RegisterModel : PageModel

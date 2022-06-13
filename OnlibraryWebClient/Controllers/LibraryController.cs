@@ -16,15 +16,21 @@ namespace OnlibraryWebClient.Controllers
     [ApiController]
     public class LibraryController : Controller
     {
+        private readonly GraphQLHttpClient _client;
+        public LibraryController(GraphQLHttpClient client)
+        {
+            _client = client;
+        }
+
+
         public async Task<IActionResult> Index()
         {
-            var client = new GraphQLHttpClient("https://localhost:5001/graphql", new NewtonsoftJsonSerializer());
             var request = new GraphQLHttpRequest()
             {
                 Query = @"query {library {authorId,authorFirstName,authorLastName,rating,country,nationality,books {bookId,title,year,translations {languages {language}}}}}"
             };
 
-            var response = await client.SendQueryAsync<Library>(request);
+            var response = await _client.SendQueryAsync<Library>(request);
             var result = response.Data;
             return View(result);
         }

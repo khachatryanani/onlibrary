@@ -1,0 +1,9 @@
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryOrdersDatabase\bin\Debug\OnlibraryOrdersDatabase.dacpac
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryOrdersDatabase\bin\Debug\OnlibraryOrdersDatabase.dll
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryOrdersDatabase\bin\Debug\OnlibraryOrdersDatabase.pdb
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryOrdersDatabase\obj\Debug\OnlibraryOrdersDatabase.dll
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryOrdersDatabase\obj\Debug\OnlibraryOrdersDatabase.pdb
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryOrdersDatabase\obj\Debug\Model.xml
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryOrdersDatabase\obj\Debug\refactor.xml
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryOrdersDatabase\obj\Debug\postdeploy.sql
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryOrdersDatabase\obj\Debug\predeploy.sql

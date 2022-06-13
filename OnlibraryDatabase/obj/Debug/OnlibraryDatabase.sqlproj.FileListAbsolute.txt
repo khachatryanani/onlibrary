@@ -1,0 +1,10 @@
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryDatabase\bin\Debug\OnlibraryDatabase.dacpac
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryDatabase\bin\Debug\OnlibraryDatabase.dll
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryDatabase\bin\Debug\OnlibraryDatabase.pdb
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryDatabase\obj\Debug\OnlibraryDatabase.dll
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryDatabase\obj\Debug\OnlibraryDatabase.pdb
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryDatabase\obj\Debug\Model.xml
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryDatabase\obj\Debug\refactor.xml
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryDatabase\obj\Debug\postdeploy.sql
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryDatabase\obj\Debug\predeploy.sql
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryDatabase\obj\Debug\OnlibraryDatabase.sqlprojAssemblyReference.cache

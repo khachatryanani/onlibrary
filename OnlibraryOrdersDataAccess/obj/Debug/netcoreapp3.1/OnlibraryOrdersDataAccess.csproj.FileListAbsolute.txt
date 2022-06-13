@@ -1,0 +1,8 @@
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryOrdersDataAccess\bin\Debug\netcoreapp3.1\OnlibraryOrdersDataAccess.deps.json
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryOrdersDataAccess\bin\Debug\netcoreapp3.1\OnlibraryOrdersDataAccess.dll
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryOrdersDataAccess\bin\Debug\netcoreapp3.1\OnlibraryOrdersDataAccess.pdb
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryOrdersDataAccess\obj\Debug\netcoreapp3.1\OnlibraryOrdersDataAccess.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryOrdersDataAccess\obj\Debug\netcoreapp3.1\OnlibraryOrdersDataAccess.AssemblyInfo.cs
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryOrdersDataAccess\obj\Debug\netcoreapp3.1\OnlibraryOrdersDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryOrdersDataAccess\obj\Debug\netcoreapp3.1\OnlibraryOrdersDataAccess.dll
+C:\Users\DELL\source\repos\Onlibrary\OnlibraryOrdersDataAccess\obj\Debug\netcoreapp3.1\OnlibraryOrdersDataAccess.pdb

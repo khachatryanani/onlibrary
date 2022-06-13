@@ -19,7 +19,6 @@ namespace OnlibraryDataAccess
 
         public IEnumerable<AuthorBase> GetAuthors()
         {
-           // return new List<string>() { "some", "strings" };
             using (SqlConnection connection = new SqlConnection(this.connectionString))
             {
                 connection.Open();
@@ -214,8 +213,6 @@ namespace OnlibraryDataAccess
             }
 
             return library;
-
-            //return new List<Author>();
         }
 
         public IEnumerable<LanguageBase> GetTranslationsByBookId(int bookId) 

@@ -14,9 +14,16 @@ namespace OnlibraryWebClient.Controllers
     [ApiController]
     public class BooksController : Controller
     {
+
+        private readonly GraphQLHttpClient _client;
+        public BooksController(GraphQLHttpClient client)
+        {
+            _client = client;
+        }
+
         public async Task<IActionResult> Index()
         {
-            var client = new GraphQLHttpClient("https://localhost:5001/graphql", new NewtonsoftJsonSerializer());
+            
             var request = new GraphQLHttpRequest()
             {
                 Query = @"query {collection {
@@ -34,7 +41,7 @@ namespace OnlibraryWebClient.Controllers
   }}"
             };
 
-            var response = await client.SendQueryAsync<Collection>(request);
+            var response = await _client.SendQueryAsync<Collection>(request);
             var result = response.Data;
             return View(result);
         }

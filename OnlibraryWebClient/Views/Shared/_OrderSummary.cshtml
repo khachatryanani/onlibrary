@@ -1,0 +1,12 @@
+﻿@model OrderBase
+<div class="card card-outline-primary m-1 p-1">
+    <div class="bg-faded p-1 font-weight-bolder">
+        <h3>
+            Order Number: @Model.OrderId
+        </h3>
+    </div>
+    <hr />
+    <div class="card-text p-1">Ordered Book Id: @Model.BookId.</div>
+    <div class="card-text p-1">Address: @Model.Address</div>
+    <div class="card-text p-1">Order Date: @Model.OrderDate.ToShortDateString()</div>
+</div>

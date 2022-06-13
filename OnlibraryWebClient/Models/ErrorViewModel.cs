@@ -1,6 +1,6 @@
 using System;
 
-namespace MyWebApp.Models
+namespace OnlibraryWebClient.Models
 {
     public class ErrorViewModel
     {

@@ -1,85 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\source\\repos\\onlibraryproject\\OnlibraryWebClient\\OnlibraryWebClient.csproj": {}
+    "C:\\Users\\DELL\\source\\repos\\Onlibrary\\MyWebApp\\OnlibraryWebClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\source\\repos\\onlibraryproject\\OnlibraryDataAccess\\OnlibraryDataAccess.csproj": {
+    "C:\\Users\\DELL\\source\\repos\\Onlibrary\\MyWebApp\\OnlibraryWebClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\onlibraryproject\\OnlibraryDataAccess\\OnlibraryDataAccess.csproj",
-        "projectName": "OnlibraryDataAccess",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\onlibraryproject\\OnlibraryDataAccess\\OnlibraryDataAccess.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\onlibraryproject\\OnlibraryDataAccess\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://packagesource": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "System.Data.SqlClient": {
-              "target": "Package",
-              "version": "[4.8.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\DELL\\source\\repos\\onlibraryproject\\OnlibraryWebClient\\OnlibraryWebClient.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\onlibraryproject\\OnlibraryWebClient\\OnlibraryWebClient.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\Onlibrary\\MyWebApp\\OnlibraryWebClient.csproj",
         "projectName": "OnlibraryWebClient",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\onlibraryproject\\OnlibraryWebClient\\OnlibraryWebClient.csproj",
+        "projectPath": "C:\\Users\\DELL\\source\\repos\\Onlibrary\\MyWebApp\\OnlibraryWebClient.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\onlibraryproject\\OnlibraryWebClient\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\source\\repos\\Onlibrary\\MyWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -104,8 +36,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\DELL\\source\\repos\\onlibraryproject\\OnlibraryDataAccess\\OnlibraryDataAccess.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\onlibraryproject\\OnlibraryDataAccess\\OnlibraryDataAccess.csproj"
+              "C:\\Users\\DELL\\source\\repos\\Onlibrary\\OnlibraryDataAccess\\OnlibraryDataAccess.csproj": {
+                "projectPath": "C:\\Users\\DELL\\source\\repos\\Onlibrary\\OnlibraryDataAccess\\OnlibraryDataAccess.csproj"
               }
             }
           }
@@ -175,6 +107,74 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DELL\\source\\repos\\Onlibrary\\OnlibraryDataAccess\\OnlibraryDataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\Onlibrary\\OnlibraryDataAccess\\OnlibraryDataAccess.csproj",
+        "projectName": "OnlibraryDataAccess",
+        "projectPath": "C:\\Users\\DELL\\source\\repos\\Onlibrary\\OnlibraryDataAccess\\OnlibraryDataAccess.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\source\\repos\\Onlibrary\\OnlibraryDataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

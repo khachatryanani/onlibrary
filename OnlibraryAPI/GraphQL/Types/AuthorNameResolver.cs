@@ -12,13 +12,11 @@ namespace OnlibraryAPI.GraphQL.Types
     public class AuthorNameResolver
     {
         private readonly IDataAccess dataAccess;
-        public AuthorNameResolver([Service]
-        IDataAccess dataAcc)
+        public AuthorNameResolver([Service]IDataAccess dataAcc)
         {
             dataAccess = dataAcc;
         }
-        public string GetAuthorName(
-        BookBase book, IResolverContext ctx)
+        public string GetAuthorName(BookBase book, IResolverContext ctx)
         {
             var author =  dataAccess.GetAuthorById(book.AuthorId);
 

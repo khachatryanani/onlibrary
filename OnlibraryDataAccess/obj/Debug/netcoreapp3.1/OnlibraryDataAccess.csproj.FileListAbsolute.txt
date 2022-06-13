@@ -7,12 +7,3 @@ C:\Users\DELL\source\repos\Onlibrary\OnlibraryDataAccess\obj\Debug\netcoreapp3.1
 C:\Users\DELL\source\repos\Onlibrary\OnlibraryDataAccess\obj\Debug\netcoreapp3.1\OnlibraryDataAccess.csproj.CoreCompileInputs.cache
 C:\Users\DELL\source\repos\Onlibrary\OnlibraryDataAccess\obj\Debug\netcoreapp3.1\OnlibraryDataAccess.dll
 C:\Users\DELL\source\repos\Onlibrary\OnlibraryDataAccess\obj\Debug\netcoreapp3.1\OnlibraryDataAccess.pdb
-C:\Users\DELL\source\repos\onlibraryproject\OnlibraryDataAccess\bin\Debug\netcoreapp3.1\OnlibraryDataAccess.deps.json
-C:\Users\DELL\source\repos\onlibraryproject\OnlibraryDataAccess\bin\Debug\netcoreapp3.1\OnlibraryDataAccess.dll
-C:\Users\DELL\source\repos\onlibraryproject\OnlibraryDataAccess\bin\Debug\netcoreapp3.1\OnlibraryDataAccess.pdb
-C:\Users\DELL\source\repos\onlibraryproject\OnlibraryDataAccess\obj\Debug\netcoreapp3.1\OnlibraryDataAccess.csprojAssemblyReference.cache
-C:\Users\DELL\source\repos\onlibraryproject\OnlibraryDataAccess\obj\Debug\netcoreapp3.1\OnlibraryDataAccess.AssemblyInfoInputs.cache
-C:\Users\DELL\source\repos\onlibraryproject\OnlibraryDataAccess\obj\Debug\netcoreapp3.1\OnlibraryDataAccess.AssemblyInfo.cs
-C:\Users\DELL\source\repos\onlibraryproject\OnlibraryDataAccess\obj\Debug\netcoreapp3.1\OnlibraryDataAccess.csproj.CoreCompileInputs.cache
-C:\Users\DELL\source\repos\onlibraryproject\OnlibraryDataAccess\obj\Debug\netcoreapp3.1\OnlibraryDataAccess.dll
-C:\Users\DELL\source\repos\onlibraryproject\OnlibraryDataAccess\obj\Debug\netcoreapp3.1\OnlibraryDataAccess.pdb

@@ -459,11 +459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\onlibraryproject\\OnlibraryDataAccess\\OnlibraryDataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\onlibraryproject\\OnlibraryDataAccess\\OnlibraryDataAccess.csproj",
       "projectName": "OnlibraryDataAccess",
-      "projectPath": "C:\\Users\\DELL\\Source\\Repos\\onlibraryproject\\OnlibraryDataAccess\\OnlibraryDataAccess.csproj",
+      "projectPath": "C:\\Users\\DELL\\source\\repos\\onlibraryproject\\OnlibraryDataAccess\\OnlibraryDataAccess.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Source\\Repos\\onlibraryproject\\OnlibraryDataAccess\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\source\\repos\\onlibraryproject\\OnlibraryDataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
